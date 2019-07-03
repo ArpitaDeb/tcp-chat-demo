@@ -6,6 +6,7 @@ Run `node server.js` to spin up the chat server. Chat clients can connect by usi
 This should look like: `nc 192.168.x.xx 1234`
 
 ### Lecture Notes 📢
+(Many of these notes are borrowed with ❤️ from [Travis Borsa](https://github.com/tborsa/LighthouseLabs/tree/master/lectures/Week2/Day1/lecture) in Vancouver.
 
 Today we looked at:
 - protocol
