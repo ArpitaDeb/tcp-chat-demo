@@ -156,6 +156,5 @@ Typically it is the client software making requests. The most common example of 
 - [Postman](https://www.getpostman.com/)
 - [HTTPie](https://httpie.org/)
 - [Paw](https://paw.cloud/)
-
-
+- [What happened to `telnet` on macOS?](https://medium.com/ayuth/bring-telnet-back-on-macos-high-sierra-11de98de1544)
 ---
