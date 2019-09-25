@@ -10,7 +10,9 @@ net.createServer(socket => {
 
   // Handle incoming messages from clients.
   socket.on('data', function (data) {
-    if (!socket.name) {
+    if (socket.name) {
+      broadcast(`${socket.name} > ${data}`, socket)
+    } else {
       // Identify this client
       socket.name = String(data).trim()
 
@@ -25,8 +27,6 @@ net.createServer(socket => {
       \n`)
 
       broadcast(`${socket.name} joined the chat\n`, socket)
-    } else {
-      broadcast(`${socket.name} > ${data}`, socket)
     }
   })
 
