@@ -4,7 +4,7 @@
 Run `node server.js` to spin up the chat server. Chat clients can connect by using `netcat` (similar to `telnet`) to visit your IP address (`option + click` on the wifi icon on a mac to see yours), and include port `:1234`. 
 
 This should look like: `nc 192.168.x.xx 1234`
-
+TEST!@
 ### Lecture Notes 📢
 (Many of these notes are borrowed with ❤️ from [Travis Borsa](https://github.com/tborsa/LighthouseLabs/tree/master/lectures/Week2/Day1/lecture) in Vancouver.
 
